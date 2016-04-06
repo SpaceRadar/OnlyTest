@@ -334,7 +334,7 @@ unsigned long rev_long(unsigned long val)
 }
 int main ()
 {
-	alt_u32 leds=0x01;
+	alt_u32 leds=0xAA;
 	alt_u32 jump_address=0x1800;
 	alt_u32 base_address, offset;
 	alt_u32 buff[32];
